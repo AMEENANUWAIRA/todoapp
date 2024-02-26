@@ -3,7 +3,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 
-PG_DB_URL = 'postgresql://postgres:postgres@localhost/TodoAppDB'
+PG_DB_URL = 'postgresql://mqfuwfse:FjDKpsSJXcdflpeTfRsa2YFvoA9lK3Jx@flora.db.elephantsql.com/mqfuwfse'
 
 engine = create_engine(PG_DB_URL)
 
